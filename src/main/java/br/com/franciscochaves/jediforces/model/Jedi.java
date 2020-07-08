@@ -1,4 +1,4 @@
-package br.com.franciscochaves.springwebmvc.model;
+package br.com.franciscochaves.jediforces.model;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;

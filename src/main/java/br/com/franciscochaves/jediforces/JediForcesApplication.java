@@ -1,13 +1,13 @@
-package br.com.franciscochaves.springwebmvc;
+package br.com.franciscochaves.jediforces;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringWebMvcApplication {
+public class JediForcesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringWebMvcApplication.class, args);
+		SpringApplication.run(JediForcesApplication.class, args);
 	}
 
 }

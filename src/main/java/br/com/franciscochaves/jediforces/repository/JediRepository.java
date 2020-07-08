@@ -1,9 +1,9 @@
-package br.com.franciscochaves.springwebmvc.repository;
+package br.com.franciscochaves.jediforces.repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.franciscochaves.springwebmvc.model.Jedi;
+import br.com.franciscochaves.jediforces.model.Jedi;
 import org.springframework.stereotype.Repository;
 
 @Repository

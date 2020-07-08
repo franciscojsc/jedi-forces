@@ -1,8 +1,8 @@
-package br.com.franciscochaves.springwebmvc.controller;
+package br.com.franciscochaves.jediforces.controller;
 
 
-import br.com.franciscochaves.springwebmvc.model.Jedi;
-import br.com.franciscochaves.springwebmvc.repository.JediRepository;
+import br.com.franciscochaves.jediforces.model.Jedi;
+import br.com.franciscochaves.jediforces.repository.JediRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

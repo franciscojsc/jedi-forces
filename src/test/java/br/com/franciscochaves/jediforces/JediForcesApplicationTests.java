@@ -1,10 +1,10 @@
-package br.com.franciscochaves.springwebmvc;
+package br.com.franciscochaves.jediforces;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringWebMvcApplicationTests {
+class JediForcesApplicationTests {
 
 	@Test
 	void contextLoads() {
