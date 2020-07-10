@@ -26,7 +26,7 @@ public class JediController {
         final ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("jedi");
 
-        modelAndView.addObject("allJedi", repository.getAllJedi());
+        modelAndView.addObject("allJedi", repository.findAll());
 
         return modelAndView;
     }
@@ -49,7 +49,7 @@ public class JediController {
             return "new-jedi";
         }
 
-        repository.add(jedi);
+        repository.save(jedi);
         redirect.addFlashAttribute("message", "Jedi successfully created.");
 
         return "redirect:jedi";
