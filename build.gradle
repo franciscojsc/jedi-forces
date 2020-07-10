@@ -21,6 +21,7 @@ dependencies {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
 	implementation 'com.h2database:h2'
+	implementation 'org.postgresql:postgresql'
 }
 
 test {
